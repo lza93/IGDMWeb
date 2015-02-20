@@ -1,0 +1,41 @@
+    <div id="info-visualization">
+        <table>
+            <tr>
+                <td>
+                    <div id="control-panel-container">
+                        <div id="control-panel">
+                            <h3>Apriori Algorithm</h3>
+                            <hr>
+                            <div id = "visualizationAccordion">
+
+							<p></p>
+							<h4 style="margin-left:2px; background-color:lightgrey; border: 1px solid black"/>Parameters </h4>
+							<form action = "/classification">
+								<fieldset class="fieldset-class">
+									<div id="classificationContent">
+									
+										<div id = "classificationAccordionARM">
+											<p>Required number of rules output (n):</p>
+											<input type="text" name="numberOfRules"style="width: 96%"/>
+											<hr>
+											<p>Minimum confidence of a rule (minsup):</p>
+											<input type="text" name="minConf" style="width: 96%"/>
+											<hr>
+											<p>Minimum support of a rule (minconf):</p>									
+											<input type="text" name="minSupp" style="width: 96%"/>
+
+										</div>
+									</div>
+								
+								</fieldset>
+							<p></p>
+							<div>
+								<input type="submit" value="Submit" style="margin-left:180px; width: 40%" />
+							</div>
+							<p></p>
+							<hr>
+							</form> 
+                        </div>
+                    </div>
+                </td>
+                <td>

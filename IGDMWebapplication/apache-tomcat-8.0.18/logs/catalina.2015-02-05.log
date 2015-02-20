@@ -1,0 +1,805 @@
+05-Feb-2015 12:00:34.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.18
+05-Feb-2015 12:00:34.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 23 2015 11:56:07 UTC
+05-Feb-2015 12:00:34.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.18.0
+05-Feb-2015 12:00:34.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+05-Feb-2015 12:00:34.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+05-Feb-2015 12:00:34.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+05-Feb-2015 12:00:34.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jdk1.7.0_75\jre
+05-Feb-2015 12:00:34.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_75-b13
+05-Feb-2015 12:00:34.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Feb-2015 12:00:34.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 12:00:34.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 12:00:34.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\IGDMWebapplication\apache-tomcat-8.0.18\conf\logging.properties
+05-Feb-2015 12:00:34.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Feb-2015 12:00:34.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=F:\IGDMWebapplication\apache-tomcat-8.0.18\endorsed
+05-Feb-2015 12:00:34.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 12:00:34.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 12:00:34.932 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\IGDMWebapplication\apache-tomcat-8.0.18\temp
+05-Feb-2015 12:00:34.932 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.7.0_75\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\ImageMagick-6.8.7-Q16;C:\PROGRAM FILES (X86)\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\INTEL\ICLS CLIENT\;C:\PROGRAM FILES (X86)\NVIDIA CORPORATION\PHYSX\COMMON;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;C:\PROGRAM FILES (X86)\MICROSOFT SQL SERVER\100\TOOLS\BINN\;C:\PROGRAM FILES\MICROSOFT SQL SERVER\100\TOOLS\BINN\;C:\PROGRAM FILES\MICROSOFT SQL SERVER\100\DTS\BINN\;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X86;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X64;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\Program Files\Lenovo\Bluetooth Software\;C:\Program Files\Lenovo\Bluetooth Software\syswow64;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\MATLAB\R2013a\runtime\win32;C:\Program Files (x86)\MATLAB\R2013a\bin;C:\Program Files\MATLAB\R2013a\runtime\win64;C:\Program Files\MATLAB\R2013a\bin;C:\Program Files\MATLAB\MATLAB Compiler Runtime\v81\runtime\win64;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\nodejs\;C:\Ruby193\bin;C:\Program Files (x86)\IDM Computer Solutions\UltraCompare\;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\xiaodongsun\AppData\Roaming\npm;C:\Python27\;C:\Program Files (x86)\Java\jdk1.7.0_75\bin;;.
+05-Feb-2015 12:00:35.102 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 12:00:35.132 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Feb-2015 12:00:35.132 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 12:00:35.142 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Feb-2015 12:00:35.142 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 714 ms
+05-Feb-2015 12:00:35.162 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+05-Feb-2015 12:00:35.162 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.18
+05-Feb-2015 12:00:35.182 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\docs
+05-Feb-2015 12:00:36.352 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [780] milliseconds.
+05-Feb-2015 12:00:36.392 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\docs has finished in 1,210 ms
+05-Feb-2015 12:00:36.392 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\examples
+05-Feb-2015 12:00:37.803 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\examples has finished in 1,411 ms
+05-Feb-2015 12:00:37.803 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\host-manager
+05-Feb-2015 12:00:37.833 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\host-manager has finished in 30 ms
+05-Feb-2015 12:00:37.833 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\manager
+05-Feb-2015 12:00:37.873 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\manager has finished in 40 ms
+05-Feb-2015 12:00:37.873 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\ROOT
+05-Feb-2015 12:00:37.903 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\ROOT has finished in 30 ms
+05-Feb-2015 12:00:37.913 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 12:00:37.923 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 12:00:37.923 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2785 ms
+05-Feb-2015 12:07:23.225 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Feb-2015 12:07:23.225 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 12:07:23.285 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 12:07:23.335 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+05-Feb-2015 12:07:23.435 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 12:07:23.435 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 12:07:23.435 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 12:07:23.455 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 12:07:59.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.18
+05-Feb-2015 12:07:59.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 23 2015 11:56:07 UTC
+05-Feb-2015 12:07:59.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.18.0
+05-Feb-2015 12:07:59.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+05-Feb-2015 12:07:59.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+05-Feb-2015 12:07:59.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+05-Feb-2015 12:07:59.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jdk1.7.0_75\jre
+05-Feb-2015 12:07:59.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_75-b13
+05-Feb-2015 12:07:59.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Feb-2015 12:07:59.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 12:07:59.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 12:07:59.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\IGDMWebapplication\apache-tomcat-8.0.18\conf\logging.properties
+05-Feb-2015 12:07:59.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Feb-2015 12:07:59.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=F:\IGDMWebapplication\apache-tomcat-8.0.18\endorsed
+05-Feb-2015 12:07:59.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 12:07:59.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 12:07:59.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\IGDMWebapplication\apache-tomcat-8.0.18\temp
+05-Feb-2015 12:07:59.751 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.7.0_75\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\ImageMagick-6.8.7-Q16;C:\PROGRAM FILES (X86)\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\INTEL\ICLS CLIENT\;C:\PROGRAM FILES (X86)\NVIDIA CORPORATION\PHYSX\COMMON;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;C:\PROGRAM FILES (X86)\MICROSOFT SQL SERVER\100\TOOLS\BINN\;C:\PROGRAM FILES\MICROSOFT SQL SERVER\100\TOOLS\BINN\;C:\PROGRAM FILES\MICROSOFT SQL SERVER\100\DTS\BINN\;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X86;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X64;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\Program Files\Lenovo\Bluetooth Software\;C:\Program Files\Lenovo\Bluetooth Software\syswow64;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\MATLAB\R2013a\runtime\win32;C:\Program Files (x86)\MATLAB\R2013a\bin;C:\Program Files\MATLAB\R2013a\runtime\win64;C:\Program Files\MATLAB\R2013a\bin;C:\Program Files\MATLAB\MATLAB Compiler Runtime\v81\runtime\win64;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\nodejs\;C:\Ruby193\bin;C:\Program Files (x86)\IDM Computer Solutions\UltraCompare\;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\xiaodongsun\AppData\Roaming\npm;C:\Python27\;C:\Program Files (x86)\Java\jdk1.7.0_75\bin;;.
+05-Feb-2015 12:07:59.851 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 12:07:59.891 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Feb-2015 12:07:59.891 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 12:07:59.901 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Feb-2015 12:07:59.901 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 434 ms
+05-Feb-2015 12:07:59.931 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+05-Feb-2015 12:07:59.931 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.18
+05-Feb-2015 12:07:59.941 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\docs
+05-Feb-2015 12:08:00.931 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [810] milliseconds.
+05-Feb-2015 12:08:00.941 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\docs has finished in 1,000 ms
+05-Feb-2015 12:08:00.941 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\examples
+05-Feb-2015 12:08:02.131 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\examples has finished in 1,190 ms
+05-Feb-2015 12:08:02.131 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\host-manager
+05-Feb-2015 12:08:02.161 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\host-manager has finished in 30 ms
+05-Feb-2015 12:08:02.161 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\manager
+05-Feb-2015 12:08:02.191 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\manager has finished in 30 ms
+05-Feb-2015 12:08:02.191 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\ROOT
+05-Feb-2015 12:08:02.211 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\ROOT has finished in 20 ms
+05-Feb-2015 12:08:02.221 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 12:08:02.221 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 12:08:02.231 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2325 ms
+05-Feb-2015 12:09:14.955 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Feb-2015 12:09:14.955 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 12:09:14.955 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 12:09:15.005 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+05-Feb-2015 12:09:15.045 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 12:09:15.045 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 12:09:15.045 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 12:09:15.055 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 12:09:35.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.18
+05-Feb-2015 12:09:35.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 23 2015 11:56:07 UTC
+05-Feb-2015 12:09:35.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.18.0
+05-Feb-2015 12:09:35.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+05-Feb-2015 12:09:35.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+05-Feb-2015 12:09:35.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+05-Feb-2015 12:09:35.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jdk1.7.0_75\jre
+05-Feb-2015 12:09:35.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_75-b13
+05-Feb-2015 12:09:35.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Feb-2015 12:09:35.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 12:09:35.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 12:09:35.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\IGDMWebapplication\apache-tomcat-8.0.18\conf\logging.properties
+05-Feb-2015 12:09:35.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Feb-2015 12:09:35.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=F:\IGDMWebapplication\apache-tomcat-8.0.18\endorsed
+05-Feb-2015 12:09:35.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 12:09:35.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 12:09:35.060 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\IGDMWebapplication\apache-tomcat-8.0.18\temp
+05-Feb-2015 12:09:35.070 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.7.0_75\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\ImageMagick-6.8.7-Q16;C:\PROGRAM FILES (X86)\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\INTEL\ICLS CLIENT\;C:\PROGRAM FILES (X86)\NVIDIA CORPORATION\PHYSX\COMMON;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;C:\PROGRAM FILES (X86)\MICROSOFT SQL SERVER\100\TOOLS\BINN\;C:\PROGRAM FILES\MICROSOFT SQL SERVER\100\TOOLS\BINN\;C:\PROGRAM FILES\MICROSOFT SQL SERVER\100\DTS\BINN\;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X86;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X64;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\Program Files\Lenovo\Bluetooth Software\;C:\Program Files\Lenovo\Bluetooth Software\syswow64;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\MATLAB\R2013a\runtime\win32;C:\Program Files (x86)\MATLAB\R2013a\bin;C:\Program Files\MATLAB\R2013a\runtime\win64;C:\Program Files\MATLAB\R2013a\bin;C:\Program Files\MATLAB\MATLAB Compiler Runtime\v81\runtime\win64;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\nodejs\;C:\Ruby193\bin;C:\Program Files (x86)\IDM Computer Solutions\UltraCompare\;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\xiaodongsun\AppData\Roaming\npm;C:\Python27\;C:\Program Files (x86)\Java\jdk1.7.0_75\bin;;.
+05-Feb-2015 12:09:35.170 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 12:09:35.210 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Feb-2015 12:09:35.220 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 12:09:35.230 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Feb-2015 12:09:35.230 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 461 ms
+05-Feb-2015 12:09:35.250 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+05-Feb-2015 12:09:35.251 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.18
+05-Feb-2015 12:09:35.258 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\docs
+05-Feb-2015 12:09:36.342 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [920] milliseconds.
+05-Feb-2015 12:09:36.362 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\docs has finished in 1,104 ms
+05-Feb-2015 12:09:36.362 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\examples
+05-Feb-2015 12:09:37.532 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\examples has finished in 1,170 ms
+05-Feb-2015 12:09:37.532 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\host-manager
+05-Feb-2015 12:09:37.552 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\host-manager has finished in 20 ms
+05-Feb-2015 12:09:37.552 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\manager
+05-Feb-2015 12:09:37.582 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\manager has finished in 30 ms
+05-Feb-2015 12:09:37.582 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\ROOT
+05-Feb-2015 12:09:37.602 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\ROOT has finished in 20 ms
+05-Feb-2015 12:09:37.602 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 12:09:37.612 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 12:09:37.612 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2386 ms
+05-Feb-2015 12:11:51.828 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Feb-2015 12:11:51.828 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 12:11:51.888 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 12:11:51.938 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+05-Feb-2015 12:11:51.988 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 12:11:51.988 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 12:11:51.998 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 12:11:51.998 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 12:12:31.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.18
+05-Feb-2015 12:12:31.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 23 2015 11:56:07 UTC
+05-Feb-2015 12:12:31.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.18.0
+05-Feb-2015 12:12:31.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+05-Feb-2015 12:12:31.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+05-Feb-2015 12:12:31.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+05-Feb-2015 12:12:31.606 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jdk1.7.0_75\jre
+05-Feb-2015 12:12:31.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_75-b13
+05-Feb-2015 12:12:31.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Feb-2015 12:12:31.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 12:12:31.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 12:12:31.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\IGDMWebapplication\apache-tomcat-8.0.18\conf\logging.properties
+05-Feb-2015 12:12:31.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Feb-2015 12:12:31.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=F:\IGDMWebapplication\apache-tomcat-8.0.18\endorsed
+05-Feb-2015 12:12:31.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 12:12:31.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 12:12:31.616 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\IGDMWebapplication\apache-tomcat-8.0.18\temp
+05-Feb-2015 12:12:31.616 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.7.0_75\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\ImageMagick-6.8.7-Q16;C:\PROGRAM FILES (X86)\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\INTEL\ICLS CLIENT\;C:\PROGRAM FILES (X86)\NVIDIA CORPORATION\PHYSX\COMMON;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;C:\PROGRAM FILES (X86)\MICROSOFT SQL SERVER\100\TOOLS\BINN\;C:\PROGRAM FILES\MICROSOFT SQL SERVER\100\TOOLS\BINN\;C:\PROGRAM FILES\MICROSOFT SQL SERVER\100\DTS\BINN\;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X86;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X64;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\Program Files\Lenovo\Bluetooth Software\;C:\Program Files\Lenovo\Bluetooth Software\syswow64;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\MATLAB\R2013a\runtime\win32;C:\Program Files (x86)\MATLAB\R2013a\bin;C:\Program Files\MATLAB\R2013a\runtime\win64;C:\Program Files\MATLAB\R2013a\bin;C:\Program Files\MATLAB\MATLAB Compiler Runtime\v81\runtime\win64;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\nodejs\;C:\Ruby193\bin;C:\Program Files (x86)\IDM Computer Solutions\UltraCompare\;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\xiaodongsun\AppData\Roaming\npm;C:\Python27\;C:\Program Files (x86)\Java\jdk1.7.0_75\bin;;.
+05-Feb-2015 12:12:31.717 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 12:12:31.757 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Feb-2015 12:12:31.757 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 12:12:31.777 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Feb-2015 12:12:31.779 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 451 ms
+05-Feb-2015 12:12:31.819 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+05-Feb-2015 12:12:31.819 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.18
+05-Feb-2015 12:12:31.829 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\docs
+05-Feb-2015 12:12:32.779 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [780] milliseconds.
+05-Feb-2015 12:12:32.799 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\docs has finished in 970 ms
+05-Feb-2015 12:12:32.799 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\examples
+05-Feb-2015 12:12:33.989 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\examples has finished in 1,190 ms
+05-Feb-2015 12:12:33.989 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\host-manager
+05-Feb-2015 12:12:34.009 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\host-manager has finished in 20 ms
+05-Feb-2015 12:12:34.009 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\manager
+05-Feb-2015 12:12:34.049 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\manager has finished in 40 ms
+05-Feb-2015 12:12:34.049 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\ROOT
+05-Feb-2015 12:12:34.069 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\ROOT has finished in 20 ms
+05-Feb-2015 12:12:34.069 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 12:12:34.079 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 12:12:34.089 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2314 ms
+05-Feb-2015 12:29:19.199 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Feb-2015 12:29:19.199 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 12:29:19.209 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 12:29:19.259 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+05-Feb-2015 12:29:19.279 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 12:29:19.279 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 12:29:19.279 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 12:29:19.279 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 12:29:47.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.18
+05-Feb-2015 12:29:47.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 23 2015 11:56:07 UTC
+05-Feb-2015 12:29:47.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.18.0
+05-Feb-2015 12:29:47.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+05-Feb-2015 12:29:47.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+05-Feb-2015 12:29:47.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+05-Feb-2015 12:29:47.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jdk1.7.0_75\jre
+05-Feb-2015 12:29:47.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_75-b13
+05-Feb-2015 12:29:47.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Feb-2015 12:29:47.382 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 12:29:47.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 12:29:47.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\IGDMWebapplication\apache-tomcat-8.0.18\conf\logging.properties
+05-Feb-2015 12:29:47.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Feb-2015 12:29:47.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=F:\IGDMWebapplication\apache-tomcat-8.0.18\endorsed
+05-Feb-2015 12:29:47.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 12:29:47.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 12:29:47.392 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\IGDMWebapplication\apache-tomcat-8.0.18\temp
+05-Feb-2015 12:29:47.392 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.7.0_75\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\ImageMagick-6.8.7-Q16;C:\PROGRAM FILES (X86)\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\INTEL\ICLS CLIENT\;C:\PROGRAM FILES (X86)\NVIDIA CORPORATION\PHYSX\COMMON;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;C:\PROGRAM FILES (X86)\MICROSOFT SQL SERVER\100\TOOLS\BINN\;C:\PROGRAM FILES\MICROSOFT SQL SERVER\100\TOOLS\BINN\;C:\PROGRAM FILES\MICROSOFT SQL SERVER\100\DTS\BINN\;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X86;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X64;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\Program Files\Lenovo\Bluetooth Software\;C:\Program Files\Lenovo\Bluetooth Software\syswow64;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\MATLAB\R2013a\runtime\win32;C:\Program Files (x86)\MATLAB\R2013a\bin;C:\Program Files\MATLAB\R2013a\runtime\win64;C:\Program Files\MATLAB\R2013a\bin;C:\Program Files\MATLAB\MATLAB Compiler Runtime\v81\runtime\win64;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\nodejs\;C:\Ruby193\bin;C:\Program Files (x86)\IDM Computer Solutions\UltraCompare\;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\xiaodongsun\AppData\Roaming\npm;C:\Python27\;C:\Program Files (x86)\Java\jdk1.7.0_75\bin;;.
+05-Feb-2015 12:29:47.512 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 12:29:47.562 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Feb-2015 12:29:47.562 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 12:29:47.572 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Feb-2015 12:29:47.572 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 492 ms
+05-Feb-2015 12:29:47.592 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+05-Feb-2015 12:29:47.592 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.18
+05-Feb-2015 12:29:47.602 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\docs
+05-Feb-2015 12:29:48.732 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [940] milliseconds.
+05-Feb-2015 12:29:48.752 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\docs has finished in 1,150 ms
+05-Feb-2015 12:29:48.752 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\examples
+05-Feb-2015 12:29:49.972 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\examples has finished in 1,220 ms
+05-Feb-2015 12:29:49.972 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\host-manager
+05-Feb-2015 12:29:50.002 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\host-manager has finished in 30 ms
+05-Feb-2015 12:29:50.002 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\manager
+05-Feb-2015 12:29:50.042 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\manager has finished in 40 ms
+05-Feb-2015 12:29:50.042 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\ROOT
+05-Feb-2015 12:29:50.062 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\ROOT has finished in 20 ms
+05-Feb-2015 12:29:50.072 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 12:29:50.082 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 12:29:50.082 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2511 ms
+05-Feb-2015 12:31:56.023 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Feb-2015 12:31:56.033 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 12:31:56.083 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 12:31:56.133 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+05-Feb-2015 12:31:56.163 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 12:31:56.163 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 12:31:56.243 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 12:31:56.243 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 12:32:13.836 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.18
+05-Feb-2015 12:32:13.836 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 23 2015 11:56:07 UTC
+05-Feb-2015 12:32:13.836 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.18.0
+05-Feb-2015 12:32:13.836 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+05-Feb-2015 12:32:13.836 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+05-Feb-2015 12:32:13.836 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+05-Feb-2015 12:32:13.836 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jdk1.7.0_75\jre
+05-Feb-2015 12:32:13.836 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_75-b13
+05-Feb-2015 12:32:13.836 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Feb-2015 12:32:13.836 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 12:32:13.836 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 12:32:13.836 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\IGDMWebapplication\apache-tomcat-8.0.18\conf\logging.properties
+05-Feb-2015 12:32:13.836 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Feb-2015 12:32:13.836 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=F:\IGDMWebapplication\apache-tomcat-8.0.18\endorsed
+05-Feb-2015 12:32:13.836 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 12:32:13.836 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 12:32:13.836 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\IGDMWebapplication\apache-tomcat-8.0.18\temp
+05-Feb-2015 12:32:13.846 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.7.0_75\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\ImageMagick-6.8.7-Q16;C:\PROGRAM FILES (X86)\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\INTEL\ICLS CLIENT\;C:\PROGRAM FILES (X86)\NVIDIA CORPORATION\PHYSX\COMMON;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;C:\PROGRAM FILES (X86)\MICROSOFT SQL SERVER\100\TOOLS\BINN\;C:\PROGRAM FILES\MICROSOFT SQL SERVER\100\TOOLS\BINN\;C:\PROGRAM FILES\MICROSOFT SQL SERVER\100\DTS\BINN\;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X86;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X64;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\Program Files\Lenovo\Bluetooth Software\;C:\Program Files\Lenovo\Bluetooth Software\syswow64;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\MATLAB\R2013a\runtime\win32;C:\Program Files (x86)\MATLAB\R2013a\bin;C:\Program Files\MATLAB\R2013a\runtime\win64;C:\Program Files\MATLAB\R2013a\bin;C:\Program Files\MATLAB\MATLAB Compiler Runtime\v81\runtime\win64;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\nodejs\;C:\Ruby193\bin;C:\Program Files (x86)\IDM Computer Solutions\UltraCompare\;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\xiaodongsun\AppData\Roaming\npm;C:\Python27\;C:\Program Files (x86)\Java\jdk1.7.0_75\bin;;.
+05-Feb-2015 12:32:13.976 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 12:32:14.016 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Feb-2015 12:32:14.016 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 12:32:14.026 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Feb-2015 12:32:14.026 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 476 ms
+05-Feb-2015 12:32:14.056 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+05-Feb-2015 12:32:14.056 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.18
+05-Feb-2015 12:32:14.070 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\docs
+05-Feb-2015 12:32:15.198 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [960] milliseconds.
+05-Feb-2015 12:32:15.218 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\docs has finished in 1,148 ms
+05-Feb-2015 12:32:15.218 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\examples
+05-Feb-2015 12:32:16.620 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\examples has finished in 1,402 ms
+05-Feb-2015 12:32:16.620 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\host-manager
+05-Feb-2015 12:32:16.640 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\host-manager has finished in 20 ms
+05-Feb-2015 12:32:16.650 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\manager
+05-Feb-2015 12:32:16.680 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\manager has finished in 30 ms
+05-Feb-2015 12:32:16.680 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\ROOT
+05-Feb-2015 12:32:16.700 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\ROOT has finished in 20 ms
+05-Feb-2015 12:32:16.700 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 12:32:16.710 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 12:32:16.720 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2688 ms
+05-Feb-2015 12:38:30.627 SEVERE [main] org.apache.catalina.startup.Catalina.stopServer Could not contact localhost:8005. Tomcat may not be running.
+05-Feb-2015 12:38:30.629 SEVERE [main] org.apache.catalina.startup.Catalina.stopServer Catalina.stop: 
+ java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:79)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:339)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:200)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:182)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:579)
+	at java.net.Socket.connect(Socket.java:528)
+	at java.net.Socket.<init>(Socket.java:425)
+	at java.net.Socket.<init>(Socket.java:208)
+	at org.apache.catalina.startup.Catalina.stopServer(Catalina.java:450)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:400)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:487)
+
+05-Feb-2015 12:38:41.524 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.18
+05-Feb-2015 12:38:41.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 23 2015 11:56:07 UTC
+05-Feb-2015 12:38:41.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.18.0
+05-Feb-2015 12:38:41.526 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+05-Feb-2015 12:38:41.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+05-Feb-2015 12:38:41.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+05-Feb-2015 12:38:41.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jdk1.7.0_75\jre
+05-Feb-2015 12:38:41.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_75-b13
+05-Feb-2015 12:38:41.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Feb-2015 12:38:41.528 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 12:38:41.528 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 12:38:41.528 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\IGDMWebapplication\apache-tomcat-8.0.18\conf\logging.properties
+05-Feb-2015 12:38:41.529 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Feb-2015 12:38:41.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=F:\IGDMWebapplication\apache-tomcat-8.0.18\endorsed
+05-Feb-2015 12:38:41.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 12:38:41.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 12:38:41.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\IGDMWebapplication\apache-tomcat-8.0.18\temp
+05-Feb-2015 12:38:41.533 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.7.0_75\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\ImageMagick-6.8.7-Q16;C:\PROGRAM FILES (X86)\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\INTEL\ICLS CLIENT\;C:\PROGRAM FILES (X86)\NVIDIA CORPORATION\PHYSX\COMMON;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;C:\PROGRAM FILES (X86)\MICROSOFT SQL SERVER\100\TOOLS\BINN\;C:\PROGRAM FILES\MICROSOFT SQL SERVER\100\TOOLS\BINN\;C:\PROGRAM FILES\MICROSOFT SQL SERVER\100\DTS\BINN\;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X86;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X64;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\Program Files\Lenovo\Bluetooth Software\;C:\Program Files\Lenovo\Bluetooth Software\syswow64;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\MATLAB\R2013a\runtime\win32;C:\Program Files (x86)\MATLAB\R2013a\bin;C:\Program Files\MATLAB\R2013a\runtime\win64;C:\Program Files\MATLAB\R2013a\bin;C:\Program Files\MATLAB\MATLAB Compiler Runtime\v81\runtime\win64;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\nodejs\;C:\Ruby193\bin;C:\Program Files (x86)\IDM Computer Solutions\UltraCompare\;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\xiaodongsun\AppData\Roaming\npm;C:\Python27\;C:\Program Files (x86)\Java\jdk1.7.0_75\bin;;.
+05-Feb-2015 12:38:41.681 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 12:38:41.731 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Feb-2015 12:38:41.736 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 12:38:41.749 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Feb-2015 12:38:41.749 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 755 ms
+05-Feb-2015 12:38:41.778 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+05-Feb-2015 12:38:41.779 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.18
+05-Feb-2015 12:38:41.792 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\docs
+05-Feb-2015 12:38:43.509 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,429] milliseconds.
+05-Feb-2015 12:38:43.547 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\docs has finished in 1,754 ms
+05-Feb-2015 12:38:43.548 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\examples
+05-Feb-2015 12:38:45.560 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\examples has finished in 2,012 ms
+05-Feb-2015 12:38:45.561 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\host-manager
+05-Feb-2015 12:38:45.646 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\host-manager has finished in 85 ms
+05-Feb-2015 12:38:45.647 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\manager
+05-Feb-2015 12:38:45.700 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\manager has finished in 53 ms
+05-Feb-2015 12:38:45.702 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\ROOT
+05-Feb-2015 12:38:45.758 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\ROOT has finished in 58 ms
+05-Feb-2015 12:38:45.768 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 12:38:45.783 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 12:38:45.790 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 4039 ms
+05-Feb-2015 12:43:23.015 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Feb-2015 12:43:23.025 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 12:43:23.075 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 12:43:23.125 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+05-Feb-2015 12:43:23.155 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 12:43:23.165 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 12:43:23.165 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 12:43:23.165 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 12:43:27.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.18
+05-Feb-2015 12:43:27.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 23 2015 11:56:07 UTC
+05-Feb-2015 12:43:27.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.18.0
+05-Feb-2015 12:43:27.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+05-Feb-2015 12:43:27.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+05-Feb-2015 12:43:27.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+05-Feb-2015 12:43:27.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jdk1.7.0_75\jre
+05-Feb-2015 12:43:27.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_75-b13
+05-Feb-2015 12:43:27.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Feb-2015 12:43:27.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 12:43:27.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 12:43:27.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\IGDMWebapplication\apache-tomcat-8.0.18\conf\logging.properties
+05-Feb-2015 12:43:27.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Feb-2015 12:43:27.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=F:\IGDMWebapplication\apache-tomcat-8.0.18\endorsed
+05-Feb-2015 12:43:27.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 12:43:27.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 12:43:27.095 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\IGDMWebapplication\apache-tomcat-8.0.18\temp
+05-Feb-2015 12:43:27.095 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.7.0_75\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\ImageMagick-6.8.7-Q16;C:\PROGRAM FILES (X86)\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\INTEL\ICLS CLIENT\;C:\PROGRAM FILES (X86)\NVIDIA CORPORATION\PHYSX\COMMON;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;C:\PROGRAM FILES (X86)\MICROSOFT SQL SERVER\100\TOOLS\BINN\;C:\PROGRAM FILES\MICROSOFT SQL SERVER\100\TOOLS\BINN\;C:\PROGRAM FILES\MICROSOFT SQL SERVER\100\DTS\BINN\;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X86;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X64;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\Program Files\Lenovo\Bluetooth Software\;C:\Program Files\Lenovo\Bluetooth Software\syswow64;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\MATLAB\R2013a\runtime\win32;C:\Program Files (x86)\MATLAB\R2013a\bin;C:\Program Files\MATLAB\R2013a\runtime\win64;C:\Program Files\MATLAB\R2013a\bin;C:\Program Files\MATLAB\MATLAB Compiler Runtime\v81\runtime\win64;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\nodejs\;C:\Ruby193\bin;C:\Program Files (x86)\IDM Computer Solutions\UltraCompare\;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\xiaodongsun\AppData\Roaming\npm;C:\Python27\;C:\Program Files (x86)\Java\jdk1.7.0_75\bin;;.
+05-Feb-2015 12:43:27.227 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 12:43:27.257 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Feb-2015 12:43:27.257 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 12:43:27.267 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Feb-2015 12:43:27.267 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 492 ms
+05-Feb-2015 12:43:27.287 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+05-Feb-2015 12:43:27.327 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.18
+05-Feb-2015 12:43:27.327 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\docs
+05-Feb-2015 12:43:28.527 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,020] milliseconds.
+05-Feb-2015 12:43:28.547 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\docs has finished in 1,220 ms
+05-Feb-2015 12:43:28.547 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\examples
+05-Feb-2015 12:43:29.807 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\examples has finished in 1,260 ms
+05-Feb-2015 12:43:29.807 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\host-manager
+05-Feb-2015 12:43:29.837 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\host-manager has finished in 30 ms
+05-Feb-2015 12:43:29.837 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\manager
+05-Feb-2015 12:43:29.867 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\manager has finished in 30 ms
+05-Feb-2015 12:43:29.867 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\ROOT
+05-Feb-2015 12:43:29.887 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\ROOT has finished in 20 ms
+05-Feb-2015 12:43:29.897 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 12:43:29.907 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 12:43:29.907 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2636 ms
+05-Feb-2015 12:45:58.669 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Feb-2015 12:45:58.670 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 12:45:58.739 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 12:45:58.789 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+05-Feb-2015 12:45:58.819 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 12:45:58.829 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 12:45:58.829 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 12:45:58.829 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 12:46:09.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.18
+05-Feb-2015 12:46:09.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 23 2015 11:56:07 UTC
+05-Feb-2015 12:46:09.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.18.0
+05-Feb-2015 12:46:09.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+05-Feb-2015 12:46:09.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+05-Feb-2015 12:46:09.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+05-Feb-2015 12:46:09.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jdk1.7.0_75\jre
+05-Feb-2015 12:46:09.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_75-b13
+05-Feb-2015 12:46:09.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Feb-2015 12:46:09.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 12:46:09.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 12:46:09.330 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\IGDMWebapplication\apache-tomcat-8.0.18\conf\logging.properties
+05-Feb-2015 12:46:09.340 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Feb-2015 12:46:09.340 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=F:\IGDMWebapplication\apache-tomcat-8.0.18\endorsed
+05-Feb-2015 12:46:09.340 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 12:46:09.340 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 12:46:09.340 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\IGDMWebapplication\apache-tomcat-8.0.18\temp
+05-Feb-2015 12:46:09.340 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.7.0_75\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\ImageMagick-6.8.7-Q16;C:\PROGRAM FILES (X86)\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\INTEL\ICLS CLIENT\;C:\PROGRAM FILES (X86)\NVIDIA CORPORATION\PHYSX\COMMON;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;C:\PROGRAM FILES (X86)\MICROSOFT SQL SERVER\100\TOOLS\BINN\;C:\PROGRAM FILES\MICROSOFT SQL SERVER\100\TOOLS\BINN\;C:\PROGRAM FILES\MICROSOFT SQL SERVER\100\DTS\BINN\;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X86;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X64;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\Program Files\Lenovo\Bluetooth Software\;C:\Program Files\Lenovo\Bluetooth Software\syswow64;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\MATLAB\R2013a\runtime\win32;C:\Program Files (x86)\MATLAB\R2013a\bin;C:\Program Files\MATLAB\R2013a\runtime\win64;C:\Program Files\MATLAB\R2013a\bin;C:\Program Files\MATLAB\MATLAB Compiler Runtime\v81\runtime\win64;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\nodejs\;C:\Ruby193\bin;C:\Program Files (x86)\IDM Computer Solutions\UltraCompare\;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\xiaodongsun\AppData\Roaming\npm;C:\Python27\;C:\Program Files (x86)\Java\jdk1.7.0_75\bin;;.
+05-Feb-2015 12:46:09.470 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 12:46:09.510 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Feb-2015 12:46:09.540 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 12:46:09.550 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Feb-2015 12:46:09.550 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 541 ms
+05-Feb-2015 12:46:09.570 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+05-Feb-2015 12:46:09.570 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.18
+05-Feb-2015 12:46:09.580 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\docs
+05-Feb-2015 12:46:10.781 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,001] milliseconds.
+05-Feb-2015 12:46:10.801 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\docs has finished in 1,221 ms
+05-Feb-2015 12:46:10.801 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\examples
+05-Feb-2015 12:46:12.613 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\examples has finished in 1,812 ms
+05-Feb-2015 12:46:12.613 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\host-manager
+05-Feb-2015 12:46:12.643 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\host-manager has finished in 30 ms
+05-Feb-2015 12:46:12.643 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\manager
+05-Feb-2015 12:46:12.683 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\manager has finished in 40 ms
+05-Feb-2015 12:46:12.683 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\ROOT
+05-Feb-2015 12:46:12.703 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\ROOT has finished in 20 ms
+05-Feb-2015 12:46:12.703 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 12:46:12.713 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 12:46:12.723 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3169 ms
+05-Feb-2015 15:24:34.444 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Feb-2015 15:24:34.445 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 15:24:34.503 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 15:24:34.554 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+05-Feb-2015 15:24:34.582 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 15:24:34.663 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 15:24:34.665 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 15:24:34.666 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 15:24:40.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.18
+05-Feb-2015 15:24:40.140 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 23 2015 11:56:07 UTC
+05-Feb-2015 15:24:40.140 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.18.0
+05-Feb-2015 15:24:40.140 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+05-Feb-2015 15:24:40.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+05-Feb-2015 15:24:40.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+05-Feb-2015 15:24:40.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jdk1.7.0_75\jre
+05-Feb-2015 15:24:40.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_75-b13
+05-Feb-2015 15:24:40.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Feb-2015 15:24:40.141 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 15:24:40.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 15:24:40.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\IGDMWebapplication\apache-tomcat-8.0.18\conf\logging.properties
+05-Feb-2015 15:24:40.142 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Feb-2015 15:24:40.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=F:\IGDMWebapplication\apache-tomcat-8.0.18\endorsed
+05-Feb-2015 15:24:40.143 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 15:24:40.144 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 15:24:40.145 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\IGDMWebapplication\apache-tomcat-8.0.18\temp
+05-Feb-2015 15:24:40.146 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.7.0_75\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\ImageMagick-6.8.7-Q16;C:\PROGRAM FILES (X86)\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\INTEL\ICLS CLIENT\;C:\PROGRAM FILES (X86)\NVIDIA CORPORATION\PHYSX\COMMON;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;C:\PROGRAM FILES (X86)\MICROSOFT SQL SERVER\100\TOOLS\BINN\;C:\PROGRAM FILES\MICROSOFT SQL SERVER\100\TOOLS\BINN\;C:\PROGRAM FILES\MICROSOFT SQL SERVER\100\DTS\BINN\;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X86;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X64;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\Program Files\Lenovo\Bluetooth Software\;C:\Program Files\Lenovo\Bluetooth Software\syswow64;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\MATLAB\R2013a\runtime\win32;C:\Program Files (x86)\MATLAB\R2013a\bin;C:\Program Files\MATLAB\R2013a\runtime\win64;C:\Program Files\MATLAB\R2013a\bin;C:\Program Files\MATLAB\MATLAB Compiler Runtime\v81\runtime\win64;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\nodejs\;C:\Ruby193\bin;C:\Program Files (x86)\IDM Computer Solutions\UltraCompare\;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\xiaodongsun\AppData\Roaming\npm;C:\Python27\;C:\Program Files (x86)\Java\jdk1.7.0_75\bin;;.
+05-Feb-2015 15:24:40.276 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 15:24:40.315 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Feb-2015 15:24:40.317 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 15:24:40.327 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Feb-2015 15:24:40.328 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 499 ms
+05-Feb-2015 15:24:40.348 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+05-Feb-2015 15:24:40.349 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.18
+05-Feb-2015 15:24:40.356 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\docs
+05-Feb-2015 15:24:41.561 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,023] milliseconds.
+05-Feb-2015 15:24:41.579 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\docs has finished in 1,222 ms
+05-Feb-2015 15:24:41.579 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\examples
+05-Feb-2015 15:24:42.899 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\examples has finished in 1,320 ms
+05-Feb-2015 15:24:42.899 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\host-manager
+05-Feb-2015 15:24:42.929 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\host-manager has finished in 29 ms
+05-Feb-2015 15:24:42.929 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\manager
+05-Feb-2015 15:24:42.963 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\manager has finished in 34 ms
+05-Feb-2015 15:24:42.963 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\ROOT
+05-Feb-2015 15:24:42.984 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\ROOT has finished in 21 ms
+05-Feb-2015 15:24:42.987 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 15:24:42.999 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 15:24:43.006 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2678 ms
+05-Feb-2015 15:28:35.940 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Feb-2015 15:28:35.941 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 15:28:35.998 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 15:28:36.049 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+05-Feb-2015 15:28:36.095 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 15:28:36.098 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 15:28:36.136 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 15:28:36.138 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 15:28:41.782 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.18
+05-Feb-2015 15:28:41.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 23 2015 11:56:07 UTC
+05-Feb-2015 15:28:41.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.18.0
+05-Feb-2015 15:28:41.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+05-Feb-2015 15:28:41.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+05-Feb-2015 15:28:41.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+05-Feb-2015 15:28:41.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jdk1.7.0_75\jre
+05-Feb-2015 15:28:41.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_75-b13
+05-Feb-2015 15:28:41.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Feb-2015 15:28:41.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 15:28:41.784 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 15:28:41.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\IGDMWebapplication\apache-tomcat-8.0.18\conf\logging.properties
+05-Feb-2015 15:28:41.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Feb-2015 15:28:41.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=F:\IGDMWebapplication\apache-tomcat-8.0.18\endorsed
+05-Feb-2015 15:28:41.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 15:28:41.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 15:28:41.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\IGDMWebapplication\apache-tomcat-8.0.18\temp
+05-Feb-2015 15:28:41.787 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.7.0_75\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\ImageMagick-6.8.7-Q16;C:\PROGRAM FILES (X86)\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\INTEL\ICLS CLIENT\;C:\PROGRAM FILES (X86)\NVIDIA CORPORATION\PHYSX\COMMON;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;C:\PROGRAM FILES (X86)\MICROSOFT SQL SERVER\100\TOOLS\BINN\;C:\PROGRAM FILES\MICROSOFT SQL SERVER\100\TOOLS\BINN\;C:\PROGRAM FILES\MICROSOFT SQL SERVER\100\DTS\BINN\;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X86;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X64;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\Program Files\Lenovo\Bluetooth Software\;C:\Program Files\Lenovo\Bluetooth Software\syswow64;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\MATLAB\R2013a\runtime\win32;C:\Program Files (x86)\MATLAB\R2013a\bin;C:\Program Files\MATLAB\R2013a\runtime\win64;C:\Program Files\MATLAB\R2013a\bin;C:\Program Files\MATLAB\MATLAB Compiler Runtime\v81\runtime\win64;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\nodejs\;C:\Ruby193\bin;C:\Program Files (x86)\IDM Computer Solutions\UltraCompare\;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\xiaodongsun\AppData\Roaming\npm;C:\Python27\;C:\Program Files (x86)\Java\jdk1.7.0_75\bin;;.
+05-Feb-2015 15:28:41.939 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 15:28:41.985 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Feb-2015 15:28:41.988 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 15:28:41.996 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Feb-2015 15:28:41.997 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 510 ms
+05-Feb-2015 15:28:42.014 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+05-Feb-2015 15:28:42.014 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.18
+05-Feb-2015 15:28:42.022 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\docs
+05-Feb-2015 15:28:43.288 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,067] milliseconds.
+05-Feb-2015 15:28:43.312 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\docs has finished in 1,289 ms
+05-Feb-2015 15:28:43.312 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\examples
+05-Feb-2015 15:28:44.638 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\examples has finished in 1,326 ms
+05-Feb-2015 15:28:44.639 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\host-manager
+05-Feb-2015 15:28:44.669 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\host-manager has finished in 30 ms
+05-Feb-2015 15:28:44.670 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\manager
+05-Feb-2015 15:28:44.708 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\manager has finished in 38 ms
+05-Feb-2015 15:28:44.708 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\ROOT
+05-Feb-2015 15:28:44.729 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\ROOT has finished in 21 ms
+05-Feb-2015 15:28:44.731 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 15:28:44.741 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 15:28:44.746 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2749 ms
+05-Feb-2015 15:31:59.608 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Feb-2015 15:31:59.608 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 15:31:59.665 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 15:31:59.716 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+05-Feb-2015 15:31:59.750 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 15:31:59.751 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 15:31:59.753 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 15:31:59.755 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 15:32:04.069 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.18
+05-Feb-2015 15:32:04.071 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 23 2015 11:56:07 UTC
+05-Feb-2015 15:32:04.071 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.18.0
+05-Feb-2015 15:32:04.071 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+05-Feb-2015 15:32:04.071 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+05-Feb-2015 15:32:04.071 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+05-Feb-2015 15:32:04.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jdk1.7.0_75\jre
+05-Feb-2015 15:32:04.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_75-b13
+05-Feb-2015 15:32:04.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Feb-2015 15:32:04.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 15:32:04.072 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 15:32:04.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\IGDMWebapplication\apache-tomcat-8.0.18\conf\logging.properties
+05-Feb-2015 15:32:04.073 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Feb-2015 15:32:04.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=F:\IGDMWebapplication\apache-tomcat-8.0.18\endorsed
+05-Feb-2015 15:32:04.074 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 15:32:04.075 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 15:32:04.076 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\IGDMWebapplication\apache-tomcat-8.0.18\temp
+05-Feb-2015 15:32:04.076 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.7.0_75\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\ImageMagick-6.8.7-Q16;C:\PROGRAM FILES (X86)\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\INTEL\ICLS CLIENT\;C:\PROGRAM FILES (X86)\NVIDIA CORPORATION\PHYSX\COMMON;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;C:\PROGRAM FILES (X86)\MICROSOFT SQL SERVER\100\TOOLS\BINN\;C:\PROGRAM FILES\MICROSOFT SQL SERVER\100\TOOLS\BINN\;C:\PROGRAM FILES\MICROSOFT SQL SERVER\100\DTS\BINN\;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X86;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X64;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\Program Files\Lenovo\Bluetooth Software\;C:\Program Files\Lenovo\Bluetooth Software\syswow64;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\MATLAB\R2013a\runtime\win32;C:\Program Files (x86)\MATLAB\R2013a\bin;C:\Program Files\MATLAB\R2013a\runtime\win64;C:\Program Files\MATLAB\R2013a\bin;C:\Program Files\MATLAB\MATLAB Compiler Runtime\v81\runtime\win64;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\nodejs\;C:\Ruby193\bin;C:\Program Files (x86)\IDM Computer Solutions\UltraCompare\;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\xiaodongsun\AppData\Roaming\npm;C:\Python27\;C:\Program Files (x86)\Java\jdk1.7.0_75\bin;;.
+05-Feb-2015 15:32:04.218 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 15:32:04.255 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Feb-2015 15:32:04.258 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 15:32:04.270 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Feb-2015 15:32:04.270 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 555 ms
+05-Feb-2015 15:32:04.294 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+05-Feb-2015 15:32:04.295 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.18
+05-Feb-2015 15:32:04.306 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\docs
+05-Feb-2015 15:32:05.630 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,088] milliseconds.
+05-Feb-2015 15:32:05.649 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\docs has finished in 1,343 ms
+05-Feb-2015 15:32:05.649 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\examples
+05-Feb-2015 15:32:07.418 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\examples has finished in 1,769 ms
+05-Feb-2015 15:32:07.419 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\host-manager
+05-Feb-2015 15:32:07.457 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\host-manager has finished in 39 ms
+05-Feb-2015 15:32:07.459 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\manager
+05-Feb-2015 15:32:07.499 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\manager has finished in 39 ms
+05-Feb-2015 15:32:07.499 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\ROOT
+05-Feb-2015 15:32:07.518 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\ROOT has finished in 19 ms
+05-Feb-2015 15:32:07.521 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 15:32:07.531 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 15:32:07.535 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3263 ms
+05-Feb-2015 15:33:34.895 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Feb-2015 15:33:34.896 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 15:33:34.952 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 15:33:35.003 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+05-Feb-2015 15:33:35.030 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 15:33:35.034 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 15:33:35.036 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 15:33:35.038 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 15:33:39.050 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.18
+05-Feb-2015 15:33:39.051 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 23 2015 11:56:07 UTC
+05-Feb-2015 15:33:39.051 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.18.0
+05-Feb-2015 15:33:39.051 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+05-Feb-2015 15:33:39.051 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+05-Feb-2015 15:33:39.051 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+05-Feb-2015 15:33:39.052 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jdk1.7.0_75\jre
+05-Feb-2015 15:33:39.052 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_75-b13
+05-Feb-2015 15:33:39.052 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Feb-2015 15:33:39.052 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 15:33:39.052 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 15:33:39.053 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\IGDMWebapplication\apache-tomcat-8.0.18\conf\logging.properties
+05-Feb-2015 15:33:39.053 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Feb-2015 15:33:39.053 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=F:\IGDMWebapplication\apache-tomcat-8.0.18\endorsed
+05-Feb-2015 15:33:39.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 15:33:39.054 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 15:33:39.055 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\IGDMWebapplication\apache-tomcat-8.0.18\temp
+05-Feb-2015 15:33:39.056 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.7.0_75\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\ImageMagick-6.8.7-Q16;C:\PROGRAM FILES (X86)\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\INTEL\ICLS CLIENT\;C:\PROGRAM FILES (X86)\NVIDIA CORPORATION\PHYSX\COMMON;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;C:\PROGRAM FILES (X86)\MICROSOFT SQL SERVER\100\TOOLS\BINN\;C:\PROGRAM FILES\MICROSOFT SQL SERVER\100\TOOLS\BINN\;C:\PROGRAM FILES\MICROSOFT SQL SERVER\100\DTS\BINN\;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X86;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X64;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\Program Files\Lenovo\Bluetooth Software\;C:\Program Files\Lenovo\Bluetooth Software\syswow64;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\MATLAB\R2013a\runtime\win32;C:\Program Files (x86)\MATLAB\R2013a\bin;C:\Program Files\MATLAB\R2013a\runtime\win64;C:\Program Files\MATLAB\R2013a\bin;C:\Program Files\MATLAB\MATLAB Compiler Runtime\v81\runtime\win64;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\nodejs\;C:\Ruby193\bin;C:\Program Files (x86)\IDM Computer Solutions\UltraCompare\;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\xiaodongsun\AppData\Roaming\npm;C:\Python27\;C:\Program Files (x86)\Java\jdk1.7.0_75\bin;;.
+05-Feb-2015 15:33:39.178 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 15:33:39.212 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Feb-2015 15:33:39.214 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 15:33:39.222 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Feb-2015 15:33:39.222 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 486 ms
+05-Feb-2015 15:33:39.239 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+05-Feb-2015 15:33:39.239 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.18
+05-Feb-2015 15:33:39.248 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\docs
+05-Feb-2015 15:33:40.461 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,029] milliseconds.
+05-Feb-2015 15:33:40.477 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\docs has finished in 1,230 ms
+05-Feb-2015 15:33:40.478 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\examples
+05-Feb-2015 15:33:42.178 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\examples has finished in 1,700 ms
+05-Feb-2015 15:33:42.179 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\host-manager
+05-Feb-2015 15:33:42.214 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\host-manager has finished in 35 ms
+05-Feb-2015 15:33:42.214 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\manager
+05-Feb-2015 15:33:42.255 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\manager has finished in 41 ms
+05-Feb-2015 15:33:42.256 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\ROOT
+05-Feb-2015 15:33:42.277 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\ROOT has finished in 21 ms
+05-Feb-2015 15:33:42.280 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 15:33:42.293 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 15:33:42.298 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3075 ms
+05-Feb-2015 15:34:19.700 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Feb-2015 15:34:19.701 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 15:34:19.708 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 15:34:19.761 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+05-Feb-2015 15:34:19.786 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 15:34:19.788 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 15:34:19.789 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 15:34:19.791 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 15:34:23.683 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.18
+05-Feb-2015 15:34:23.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 23 2015 11:56:07 UTC
+05-Feb-2015 15:34:23.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.18.0
+05-Feb-2015 15:34:23.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+05-Feb-2015 15:34:23.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+05-Feb-2015 15:34:23.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+05-Feb-2015 15:34:23.684 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jdk1.7.0_75\jre
+05-Feb-2015 15:34:23.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_75-b13
+05-Feb-2015 15:34:23.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Feb-2015 15:34:23.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 15:34:23.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 15:34:23.685 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\IGDMWebapplication\apache-tomcat-8.0.18\conf\logging.properties
+05-Feb-2015 15:34:23.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Feb-2015 15:34:23.686 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=F:\IGDMWebapplication\apache-tomcat-8.0.18\endorsed
+05-Feb-2015 15:34:23.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 15:34:23.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 15:34:23.687 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\IGDMWebapplication\apache-tomcat-8.0.18\temp
+05-Feb-2015 15:34:23.688 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.7.0_75\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\ImageMagick-6.8.7-Q16;C:\PROGRAM FILES (X86)\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\INTEL\ICLS CLIENT\;C:\PROGRAM FILES (X86)\NVIDIA CORPORATION\PHYSX\COMMON;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;C:\PROGRAM FILES (X86)\MICROSOFT SQL SERVER\100\TOOLS\BINN\;C:\PROGRAM FILES\MICROSOFT SQL SERVER\100\TOOLS\BINN\;C:\PROGRAM FILES\MICROSOFT SQL SERVER\100\DTS\BINN\;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X86;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X64;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\Program Files\Lenovo\Bluetooth Software\;C:\Program Files\Lenovo\Bluetooth Software\syswow64;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\MATLAB\R2013a\runtime\win32;C:\Program Files (x86)\MATLAB\R2013a\bin;C:\Program Files\MATLAB\R2013a\runtime\win64;C:\Program Files\MATLAB\R2013a\bin;C:\Program Files\MATLAB\MATLAB Compiler Runtime\v81\runtime\win64;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\nodejs\;C:\Ruby193\bin;C:\Program Files (x86)\IDM Computer Solutions\UltraCompare\;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\xiaodongsun\AppData\Roaming\npm;C:\Python27\;C:\Program Files (x86)\Java\jdk1.7.0_75\bin;;.
+05-Feb-2015 15:34:23.797 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 15:34:23.832 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Feb-2015 15:34:23.835 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 15:34:23.845 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Feb-2015 15:34:23.845 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 476 ms
+05-Feb-2015 15:34:23.863 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+05-Feb-2015 15:34:23.863 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.18
+05-Feb-2015 15:34:23.871 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\docs
+05-Feb-2015 15:34:25.187 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,130] milliseconds.
+05-Feb-2015 15:34:25.206 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\docs has finished in 1,335 ms
+05-Feb-2015 15:34:25.206 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\examples
+05-Feb-2015 15:34:26.567 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\examples has finished in 1,361 ms
+05-Feb-2015 15:34:26.567 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\host-manager
+05-Feb-2015 15:34:26.597 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\host-manager has finished in 30 ms
+05-Feb-2015 15:34:26.597 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\manager
+05-Feb-2015 15:34:26.635 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\manager has finished in 38 ms
+05-Feb-2015 15:34:26.635 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\ROOT
+05-Feb-2015 15:34:26.654 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\ROOT has finished in 19 ms
+05-Feb-2015 15:34:26.657 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 15:34:26.666 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 15:34:26.672 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2826 ms
+05-Feb-2015 15:34:58.263 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Feb-2015 15:34:58.263 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 15:34:58.318 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 15:34:58.371 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+05-Feb-2015 15:34:58.418 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 15:34:58.420 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 15:34:58.421 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 15:34:58.423 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 15:35:23.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.18
+05-Feb-2015 15:35:23.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 23 2015 11:56:07 UTC
+05-Feb-2015 15:35:23.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.18.0
+05-Feb-2015 15:35:23.478 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+05-Feb-2015 15:35:23.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+05-Feb-2015 15:35:23.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+05-Feb-2015 15:35:23.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jdk1.7.0_75\jre
+05-Feb-2015 15:35:23.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_75-b13
+05-Feb-2015 15:35:23.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Feb-2015 15:35:23.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 15:35:23.479 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 15:35:23.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\IGDMWebapplication\apache-tomcat-8.0.18\conf\logging.properties
+05-Feb-2015 15:35:23.480 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Feb-2015 15:35:23.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=F:\IGDMWebapplication\apache-tomcat-8.0.18\endorsed
+05-Feb-2015 15:35:23.481 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 15:35:23.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 15:35:23.482 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\IGDMWebapplication\apache-tomcat-8.0.18\temp
+05-Feb-2015 15:35:23.483 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.7.0_75\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\ImageMagick-6.8.7-Q16;C:\PROGRAM FILES (X86)\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\INTEL\ICLS CLIENT\;C:\PROGRAM FILES (X86)\NVIDIA CORPORATION\PHYSX\COMMON;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;C:\PROGRAM FILES (X86)\MICROSOFT SQL SERVER\100\TOOLS\BINN\;C:\PROGRAM FILES\MICROSOFT SQL SERVER\100\TOOLS\BINN\;C:\PROGRAM FILES\MICROSOFT SQL SERVER\100\DTS\BINN\;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X86;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X64;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\Program Files\Lenovo\Bluetooth Software\;C:\Program Files\Lenovo\Bluetooth Software\syswow64;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\MATLAB\R2013a\runtime\win32;C:\Program Files (x86)\MATLAB\R2013a\bin;C:\Program Files\MATLAB\R2013a\runtime\win64;C:\Program Files\MATLAB\R2013a\bin;C:\Program Files\MATLAB\MATLAB Compiler Runtime\v81\runtime\win64;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\nodejs\;C:\Ruby193\bin;C:\Program Files (x86)\IDM Computer Solutions\UltraCompare\;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\xiaodongsun\AppData\Roaming\npm;C:\Python27\;C:\Program Files (x86)\Java\jdk1.7.0_75\bin;;.
+05-Feb-2015 15:35:23.603 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 15:35:23.636 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Feb-2015 15:35:23.639 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 15:35:23.647 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Feb-2015 15:35:23.648 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 497 ms
+05-Feb-2015 15:35:23.664 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+05-Feb-2015 15:35:23.664 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.18
+05-Feb-2015 15:35:23.671 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\docs
+05-Feb-2015 15:35:24.988 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,134] milliseconds.
+05-Feb-2015 15:35:25.006 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\docs has finished in 1,335 ms
+05-Feb-2015 15:35:25.006 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\examples
+05-Feb-2015 15:35:26.301 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\examples has finished in 1,295 ms
+05-Feb-2015 15:35:26.301 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\host-manager
+05-Feb-2015 15:35:26.327 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\host-manager has finished in 25 ms
+05-Feb-2015 15:35:26.327 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\manager
+05-Feb-2015 15:35:26.368 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\manager has finished in 41 ms
+05-Feb-2015 15:35:26.368 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\ROOT
+05-Feb-2015 15:35:26.389 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\ROOT has finished in 21 ms
+05-Feb-2015 15:35:26.391 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 15:35:26.400 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 15:35:26.405 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2756 ms
+05-Feb-2015 15:36:28.337 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Feb-2015 15:36:28.338 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 15:36:28.395 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 15:36:28.446 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+05-Feb-2015 15:36:28.501 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 15:36:28.504 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 15:36:28.516 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 15:36:28.518 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 15:36:32.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.18
+05-Feb-2015 15:36:32.740 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 23 2015 11:56:07 UTC
+05-Feb-2015 15:36:32.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.18.0
+05-Feb-2015 15:36:32.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+05-Feb-2015 15:36:32.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+05-Feb-2015 15:36:32.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+05-Feb-2015 15:36:32.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jdk1.7.0_75\jre
+05-Feb-2015 15:36:32.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_75-b13
+05-Feb-2015 15:36:32.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Feb-2015 15:36:32.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 15:36:32.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 15:36:32.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\IGDMWebapplication\apache-tomcat-8.0.18\conf\logging.properties
+05-Feb-2015 15:36:32.743 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Feb-2015 15:36:32.743 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=F:\IGDMWebapplication\apache-tomcat-8.0.18\endorsed
+05-Feb-2015 15:36:32.744 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 15:36:32.744 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 15:36:32.745 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\IGDMWebapplication\apache-tomcat-8.0.18\temp
+05-Feb-2015 15:36:32.746 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.7.0_75\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\ImageMagick-6.8.7-Q16;C:\PROGRAM FILES (X86)\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\INTEL\ICLS CLIENT\;C:\PROGRAM FILES (X86)\NVIDIA CORPORATION\PHYSX\COMMON;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;C:\PROGRAM FILES (X86)\MICROSOFT SQL SERVER\100\TOOLS\BINN\;C:\PROGRAM FILES\MICROSOFT SQL SERVER\100\TOOLS\BINN\;C:\PROGRAM FILES\MICROSOFT SQL SERVER\100\DTS\BINN\;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X86;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X64;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\Program Files\Lenovo\Bluetooth Software\;C:\Program Files\Lenovo\Bluetooth Software\syswow64;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\MATLAB\R2013a\runtime\win32;C:\Program Files (x86)\MATLAB\R2013a\bin;C:\Program Files\MATLAB\R2013a\runtime\win64;C:\Program Files\MATLAB\R2013a\bin;C:\Program Files\MATLAB\MATLAB Compiler Runtime\v81\runtime\win64;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\nodejs\;C:\Ruby193\bin;C:\Program Files (x86)\IDM Computer Solutions\UltraCompare\;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\xiaodongsun\AppData\Roaming\npm;C:\Python27\;C:\Program Files (x86)\Java\jdk1.7.0_75\bin;;.
+05-Feb-2015 15:36:32.884 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 15:36:32.920 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Feb-2015 15:36:32.922 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 15:36:32.933 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Feb-2015 15:36:32.933 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 508 ms
+05-Feb-2015 15:36:32.952 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+05-Feb-2015 15:36:32.953 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.18
+05-Feb-2015 15:36:32.961 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\docs
+05-Feb-2015 15:36:34.164 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,015] milliseconds.
+05-Feb-2015 15:36:34.191 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\docs has finished in 1,230 ms
+05-Feb-2015 15:36:34.192 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\examples
+05-Feb-2015 15:36:35.467 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\examples has finished in 1,275 ms
+05-Feb-2015 15:36:35.467 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\host-manager
+05-Feb-2015 15:36:35.497 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\host-manager has finished in 29 ms
+05-Feb-2015 15:36:35.508 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\manager
+05-Feb-2015 15:36:35.548 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\manager has finished in 40 ms
+05-Feb-2015 15:36:35.549 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\ROOT
+05-Feb-2015 15:36:35.568 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\ROOT has finished in 19 ms
+05-Feb-2015 15:36:35.571 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 15:36:35.582 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 15:36:35.587 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 2652 ms
+05-Feb-2015 16:08:21.899 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Feb-2015 16:08:21.900 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 16:08:21.958 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 16:08:22.009 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+05-Feb-2015 16:08:22.036 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 16:08:22.041 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 16:08:22.069 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 16:08:22.071 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 16:08:26.499 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.18
+05-Feb-2015 16:08:26.500 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 23 2015 11:56:07 UTC
+05-Feb-2015 16:08:26.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.18.0
+05-Feb-2015 16:08:26.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 7
+05-Feb-2015 16:08:26.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            6.1
+05-Feb-2015 16:08:26.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          x86
+05-Feb-2015 16:08:26.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files (x86)\Java\jdk1.7.0_75\jre
+05-Feb-2015 16:08:26.501 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.7.0_75-b13
+05-Feb-2015 16:08:26.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Feb-2015 16:08:26.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 16:08:26.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 16:08:26.502 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=F:\IGDMWebapplication\apache-tomcat-8.0.18\conf\logging.properties
+05-Feb-2015 16:08:26.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Feb-2015 16:08:26.503 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=F:\IGDMWebapplication\apache-tomcat-8.0.18\endorsed
+05-Feb-2015 16:08:26.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 16:08:26.504 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\IGDMWebapplication\apache-tomcat-8.0.18
+05-Feb-2015 16:08:26.505 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\IGDMWebapplication\apache-tomcat-8.0.18\temp
+05-Feb-2015 16:08:26.505 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files (x86)\Java\jdk1.7.0_75\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\Common Files\Microsoft Shared\Microsoft Online Services;C:\Program Files (x86)\ImageMagick-6.8.7-Q16;C:\PROGRAM FILES (X86)\INTEL\ICLS CLIENT\;C:\PROGRAM FILES\INTEL\ICLS CLIENT\;C:\PROGRAM FILES (X86)\NVIDIA CORPORATION\PHYSX\COMMON;C:\Windows\SYSTEM32;C:\Windows;C:\Windows\SYSTEM32\WBEM;C:\Windows\SYSTEM32\WINDOWSPOWERSHELL\V1.0\;C:\PROGRAM FILES (X86)\MICROSOFT SQL SERVER\100\TOOLS\BINN\;C:\PROGRAM FILES\MICROSOFT SQL SERVER\100\TOOLS\BINN\;C:\PROGRAM FILES\MICROSOFT SQL SERVER\100\DTS\BINN\;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X86;C:\PROGRAM FILES (X86)\INTEL\OPENCL SDK\2.0\BIN\X64;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\DAL;C:\PROGRAM FILES (X86)\INTEL\INTEL(R) MANAGEMENT ENGINE COMPONENTS\IPT;C:\Program Files\Lenovo\Bluetooth Software\;C:\Program Files\Lenovo\Bluetooth Software\syswow64;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\MATLAB\R2013a\runtime\win32;C:\Program Files (x86)\MATLAB\R2013a\bin;C:\Program Files\MATLAB\R2013a\runtime\win64;C:\Program Files\MATLAB\R2013a\bin;C:\Program Files\MATLAB\MATLAB Compiler Runtime\v81\runtime\win64;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files\Microsoft\Web Platform Installer\;C:\Program Files\nodejs\;C:\Ruby193\bin;C:\Program Files (x86)\IDM Computer Solutions\UltraCompare\;C:\Program Files (x86)\SSH Communications Security\SSH Secure Shell;C:\Users\xiaodongsun\AppData\Roaming\npm;C:\Python27\;C:\Program Files (x86)\Java\jdk1.7.0_75\bin;;.
+05-Feb-2015 16:08:26.617 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 16:08:26.655 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Feb-2015 16:08:26.658 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 16:08:26.667 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Feb-2015 16:08:26.667 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 482 ms
+05-Feb-2015 16:08:26.684 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+05-Feb-2015 16:08:26.685 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.18
+05-Feb-2015 16:08:26.693 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\docs
+05-Feb-2015 16:08:27.942 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [1,050] milliseconds.
+05-Feb-2015 16:08:27.961 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\docs has finished in 1,268 ms
+05-Feb-2015 16:08:27.962 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\examples
+05-Feb-2015 16:08:29.784 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\examples has finished in 1,822 ms
+05-Feb-2015 16:08:29.787 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\host-manager
+05-Feb-2015 16:08:29.831 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\host-manager has finished in 44 ms
+05-Feb-2015 16:08:29.833 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\manager
+05-Feb-2015 16:08:29.895 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\manager has finished in 62 ms
+05-Feb-2015 16:08:29.926 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\ROOT
+05-Feb-2015 16:08:29.973 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory F:\IGDMWebapplication\apache-tomcat-8.0.18\webapps\ROOT has finished in 47 ms
+05-Feb-2015 16:08:29.990 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Feb-2015 16:08:30.004 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Feb-2015 16:08:30.075 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 3407 ms

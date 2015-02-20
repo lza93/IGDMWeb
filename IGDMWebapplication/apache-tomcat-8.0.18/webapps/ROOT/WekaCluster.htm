@@ -1,0 +1,303 @@
+<!doctype html>
+<html>
+<head>
+	
+	<meta charset = "utf-8">
+	<meta name = "viewport" content = "width=device-width, initial-scale=1">
+	<!--<title>Association Rule Mining Tool</title>-->
+	<!-- build:css styles/vendor.css -->
+	<!-- bower:css -->
+	<link rel="stylesheet" href="bower_components/magnific-popup/dist/magnific-popup.css">
+	<link rel="stylesheet" href="bower_components/handsontable/dist/jquery.handsontable.full.css"/>
+	<!-- Rickshaw css -->
+	<link rel="stylesheet" href="bower_components/rickshaw/rickshaw.css"/>
+	<link type="text/css" rel="stylesheet" href="bower_components/rickshaw/src/css/graph.css">
+	<link type="text/css" rel="stylesheet" href="bower_components/rickshaw/src/css/detail.css">
+	<link type="text/css" rel="stylesheet" href="bower_components/rickshaw/src/css/legend.css">
+	<link type="text/css" rel="stylesheet" href="styles/extensions/extensions.css?v=2">
+	<!-- endbower -->
+	<!-- endbuild -->
+
+	<!-- build:-->
+	<link rel="stylesheet" href="styles/style.css">
+	<link rel="stylesheet" href="styles/fonts/icomoon/style.css"/>
+	<!-- endbuild -->
+    <script src = "http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+	<script src="scripts/components/mapToolbar/map-toolbar.js"></script>
+	<!-- build:js scripts/vendor.js -->
+	<!-- bower:js -->
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="bower_components/jquery-ui/ui/jquery-ui.js"></script>
+	<script src="bower_components/d3/d3.min.js"></script>
+	<script src="bower_components/d3-timeline/src/d3-timeline.js"></script>
+	<script src="bower_components/handsontable/dist/jquery.handsontable.full.js"></script>
+	<script src="bower_components/highcharts/highcharts.js"></script>
+	<script src="bower_components/highcharts/highcharts-more.js"></script>
+	<script src="bower_components/highcharts/modules/exporting.js"></script>
+	<script src="bower_components/magnific-popup/dist/jquery.magnific-popup.js"></script>
+
+	<!-- Rickshaw components -->
+	<script src="bower_components/rickshaw/rickshaw.js"></script>
+	<script src="bower_components/rickshaw/src/js/Rickshaw.js"></script>
+	<script src="bower_components/rickshaw/src/js/Rickshaw.Class.js"></script>
+	<script src="bower_components/rickshaw/src/js/Rickshaw.Compat.ClassList.js"></script>
+	<script src="bower_components/rickshaw/src/js/Rickshaw.Graph.js"></script>
+	<script src="bower_components/rickshaw/src/js/Rickshaw.Graph.Renderer.js"></script>
+	<script src="bower_components/rickshaw/src/js/Rickshaw.Graph.Renderer.Area.js"></script>
+	<script src="bower_components/rickshaw/src/js/Rickshaw.Graph.Renderer.Line.js"></script>
+	<script src="bower_components/rickshaw/src/js/Rickshaw.Graph.Renderer.Bar.js"></script>
+	<script src="bower_components/rickshaw/src/js/Rickshaw.Graph.Renderer.ScatterPlot.js"></script>
+	<script src="bower_components/rickshaw/src/js/Rickshaw.Graph.Renderer.Stack.js"></script>
+	<script src="bower_components/rickshaw/src/js/Rickshaw.Graph.RangeSlider.js"></script>
+	<script src="bower_components/rickshaw/src/js/Rickshaw.Graph.RangeSlider.Preview.js"></script>
+	<script src="bower_components/rickshaw/src/js/Rickshaw.Graph.HoverDetail.js"></script>
+	<script src="bower_components/rickshaw/src/js/Rickshaw.Graph.Annotate.js"></script>
+	<script src="bower_components/rickshaw/src/js/Rickshaw.Graph.Legend.js"></script>
+	<script src="bower_components/rickshaw/src/js/Rickshaw.Graph.Axis.Time.js"></script>
+	<script src="bower_components/rickshaw/src/js/Rickshaw.Graph.Behavior.Series.Toggle.js"></script>
+	<script src="bower_components/rickshaw/src/js/Rickshaw.Graph.Behavior.Series.Order.js"></script>
+	<script src="bower_components/rickshaw/src/js/Rickshaw.Graph.Behavior.Series.Highlight.js"></script>
+	<script src="bower_components/rickshaw/src/js/Rickshaw.Graph.Smoother.js"></script>
+	<script src="bower_components/rickshaw/src/js/Rickshaw.Fixtures.Time.js"></script>
+	<script src="bower_components/rickshaw/src/js/Rickshaw.Fixtures.Time.Local.js"></script>
+	<script src="bower_components/rickshaw/src/js/Rickshaw.Fixtures.Number.js"></script>
+	<script src="bower_components/rickshaw/src/js/Rickshaw.Fixtures.RandomData.js"></script>
+	<script src="bower_components/rickshaw/src/js/Rickshaw.Fixtures.Color.js"></script>
+	<script src="bower_components/rickshaw/src/js/Rickshaw.Color.Palette.js"></script>
+	<script src="bower_components/rickshaw/src/js/Rickshaw.Graph.Axis.Y.js"></script>
+	<script src="scripts/extensions/extensions.js"></script>
+
+	<!-- endbower -->
+	<!-- endbuild -->
+	<!-- build:js scripts/main.js -->
+	<script src="scripts/components/mapToolbar/map-toolbar.js"></script>
+	<script src="scripts/components/search/search-controller.js"></script>
+	<script src="scripts/components/search/search-view.js"></script>
+	<script src="scripts/components/fullTable/full-table.js"></script>
+	<script src="scripts/components/mapSection/map-canvas.js"></script>
+	<script src="scripts/components/mapSection/polygon-selection.js"></script>
+	<script src="scripts/components/visualization/visualization-controller.js"></script>
+	<script src="scripts/components/visualization/visualization-view.js"></script>
+	<script src="scripts/components/export/export-controller.js"></script>
+	<script src="scripts/components/export/export-view.js"></script>
+	<script src="scripts/components/classification/classification-controller.js"></script>
+	<script src="scripts/components/classification/classification-view.js"></script>
+	<script src="scripts/main.js"></script>
+	<!-- association rule mining -->
+	<script src="scripts/components/dataMining/associationRuleMining-controller.js"></script>
+	<script src="scripts/components/dataMining/associationRuleMining-view.js"></script>
+	
+	<link rel="icon" href="myicon.ico" type="image/x-icon" /> 
+	<link rel="shortcut icon" href="myicon.ico" type="image/x-icon" /> 
+	<link rel="bookmark" href="myicon.ico" type="image/x-icon" /> 
+	
+</head>
+<body>
+	
+	<!-- the data visualization pop window (launched by click the "open" button under the "Data Visualization" button-->
+    <div id="info-visualization">
+        <table>
+            <tr>
+                <td>
+                    <div id="control-panel-container">
+                        <div id="control-panel">
+                            <h3>Apriori Algorithm</h3>
+                            <hr>
+                            <div id = "visualizationAccordion">
+
+							<p></p>
+							<h4 style="margin-left:2px; background-color:lightgrey; border: 1px solid black"/>Parameters </h4>
+							<form action="WekaCluster" method="GET"> 
+								<fieldset class="fieldset-class">
+									<div id="classificationContent">
+									
+										<div id = "classificationAccordionARM">
+											<p>Required number of rules output (n):</p>
+											<input type="text" name="numberOfRules"style="width: 96%"/>
+											<hr>
+											<p>Minimum confidence of a rule (minsup):</p>
+											<input type="text" name="minConf" style="width: 96%"/>
+											<hr>
+											<p>Minimum support of a rule (minconf):</p>									
+											<input type="text" name="minSupp" style="width: 96%"/>
+
+										</div>
+									</div>
+								
+								</fieldset>
+							<p></p>
+							<div>
+								<input type="submit" value="Submit" style="margin-left:180px; width: 40%" />
+							</div>
+							<p></p>
+							<hr>
+							</form> 
+							</div>
+						</div>
+                    </div>
+                </td>
+                <td>
+				
+				
+                    <div id="visualization-container">
+                        <div id="visualization-header">
+                            <label id="visualization-title"></label>
+                            <br>
+                            <label id="visualization-subtitle"></label>
+                        </div>
+                    </div>
+                
+				
+				</td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
+	<!-- the Tool bar on the top right-->
+	<!--<aside class = "mapToolbar">
+        
+		<!-- define show and shut function-->
+		<!--<button title = "Show toolbar" class = "show-toolbar"><i class = "icon-expand"></i></button>
+		<div class = "toolbar-buttons">
+            <!-- 2.Search-->
+            <!--<button title = "Search" data-target = "search-form" class = "show-search">
+                <i class = "icon-search"></i>
+			</button>
+            <!-- 3.Data visualization-->
+            <!--<button title = "Data visualization" data-target = "visualization-form" class = "show-visualization">
+				<i class = "icon-pie"></i>
+			</button>
+            <!-- 4.Export-->
+            <!--<button title = "Export" data-target = "export-form" class = "show-export">
+				<i class = "icon-download2"></i>
+			</button>
+		</div>
+        
+		<!-- design the five terms in the Show toolbar-->
+		<!--<article class = "sidebar-content-container">
+            <!-- the terms in the 2.Search-->
+			<!--<section class = "search-form">
+				<form action = "/">
+					<fieldset class="fieldset-class">
+						<hr>
+						<h4>Search</h4>
+						<input type="button" id="clear-search" value = "Start"/>
+						<input type="button" id="clear-search" value = "Reset"/>
+						<div id = "accordion">
+							<h5>Attributes</h5>
+							<div class = "project-search accordion-content">
+								<select id = "project" placeholder = "Project" name = "project" results = "10" autosave ="project">
+									<option value = "none">(Select)</option>
+									<option value = "injection_hour">Injection hours(injection_hour)</option>
+									<option value = "injection_steam">Injection steam volume(injection_steam)</option>
+									<option value = "oil_production">Oil production(oil_production)</option>
+									<option value = "SOR">Steam to Oil Ratio(SOR)</option>
+								</select>
+							</div>
+						</div>
+						<hr>
+					</fieldset>
+				</form>
+			</section>
+			<!-- the terms in the 5.Data visualization-->
+			<!--<section class = "visualization-form">
+				<form action = "/visualization">
+					<fieldset class="fieldset-class">
+						<hr>
+						<h4>Rule visualization</h4>
+						<div id="visualizationContent">
+							<a id="visualization-link" href="#visualization-popup" class="open-visualization" data-effect="mfp-zoom-in">
+								<input type = "button" id = "openVisualization" value = "Start"/>
+							</a>
+						</div>
+
+						<hr>
+					</fieldset>
+				</form>
+			</section>
+            <!-- the terms in the 6.Export-->
+			<!--<section class = "export-form">
+				<form action = "/export">
+					<fieldset class="fieldset-class">
+						<hr>
+						<h4>Export</h4>
+
+						<div id="exportContent">
+							<label id = "fileNameLabel" ><b>File name</b> (optional)</label>
+							<input type = "text" id = "fileName" placeholder = "Example.csv" name = "fileName">
+							<input type = "button" id = "exportButton" value = "Export"/>
+						</div>
+
+						<hr>
+					</fieldset>
+				</form>
+			</section>
+
+		</article>
+
+	</aside>-->
+	<!-- the logo
+    <a target="_blank" href="http://www.ucalgary.ca/wangx/team" id="group-logo-link">
+		<img id="group-logo" src="resources/logo-small.png" alt="Intelligent Geospatial Data Mining Laboratory" title="Intelligent Geospatial Data Mining Laboratory">
+	</a>-->
+	<!-- Association Rules Main Contents-->
+	<!--<form action="WekaCluster" method="GET"> 
+		<!--
+		<h1> Association Rule Mining </h1> 
+		<p>============================================</p>
+		-->
+		<!--<br/> 
+		Data Source (-t): <input type="text" name="dataSourcePath" value = "F:/Data/SAGD_Data_20150209.arff">
+		<br/> -->
+		<!--<br/> 
+		Required number of rules output (-N): <input type="text" name="numberOfRules" value = "100"/>
+		<br/> 
+		<!--
+		<br/> 
+		The metric type by which to rank rules (-T): <input type="text" name="rankType" value = "0"/> 
+		<br/> 
+		-->
+		<!--<br/> 
+		The minimum confidence of a rule (-C): <input type="text" name="minConf"/>
+		<br/> 
+		<br/> 
+		The minimum support of a rule (-M): <input type="text" name="minSupp"/>-->
+		<!--
+		<div>
+			<!-- parameters -->
+			<!--
+			<p></p>
+			<h4 style="margin-left:2px; background-color:lightgrey; border: 1px solid black"/>Parameters </h4>
+			<form action = "/classification">
+				<fieldset class="fieldset-class">
+					<div id="classificationContent">
+					
+						<div id = "classificationAccordionARM">
+							<h5>Required number of rules output:   <input type="text" name="numberOfRules" style="margin-left:140px"/></h5>
+							
+							<hr>
+							
+							<h5>The minimum confidence of a rule (minsup):   <input type="text" name="minConf" style="margin-left:71px"/></h5>
+
+							<hr>
+							
+							<h5>The minimum support of a rule (minconf):   <input type="text" name="minSupp" style="margin-left:87px"/></h5>
+							<div class="classification-categorical accordion-content">
+								
+							</div>
+
+						</div>
+					</div>
+				
+				</fieldset>
+			<p></p>
+			<div>
+				<input type="submit" value="Submit" style="margin-left:180px; width: 40%" />
+			</div>
+			<p></p>
+			<hr>
+			</form>  
+		</div>
+	</form>
+	

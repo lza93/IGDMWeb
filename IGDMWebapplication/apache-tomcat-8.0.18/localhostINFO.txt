@@ -1,0 +1,14 @@
+http://localhost:8080/examples/servlets/servlet/WekaCluster
+
+F:\IGDMWebapplication\apache-tomcat-8.0.18\bin
+
+http://localhost:8080/WekaCluster.htm
+
+
+
+<url-pattern>/servlets/servlet/WekaCluster</url-pattern>
+
+window.open ("page.html")
+
+
+Steam to oil ratio
