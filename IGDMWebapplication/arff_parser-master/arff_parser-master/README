@@ -1,6 +1,6 @@
-I use WEKA for data mining, which uses ARFF files. 
+I use WEKA for data mining, which applies for ARFF files. 
 
-WEKA is a powerful tool, but sometimes I want to look at the datasets in a more universal format where I can manipulate them as I please.  This Python script will convert ARFF files to XML or JSON.
+Although WEKA is a powerful tool, sometimes I want to look at the datasets in a more universal format which I can manipulate.  This Python script will convert ARFF files to XML or JSON.
 
 Usage:
 
